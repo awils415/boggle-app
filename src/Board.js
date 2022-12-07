@@ -7,16 +7,16 @@ function Board({board}) {
 
   function tile(id, letter) {
     return(
-      <Grid key={id} item xs={2} className="Tile">
+      <Grid key={id} item xs={1} className="Tile">
         <Paper elevation={4}>
-          {letter}
+         {letter}
         </Paper>
       </Grid>);
   }
 
   function rowOfTiles(id, rowObj) {
     return (
-      <Grid key={id} container spacing={3} justify="space-around">
+      <Grid key={id} container spacing={1} justify="space-around">
         {Object.keys(rowObj).map((letterKey) => {
           return tile(letterKey + id, rowObj[letterKey])
         })}

@@ -1,6 +1,9 @@
 .Guess-input {
-    border: 1px solid grey;
-    margin: 20px;
-    text-align: center;
-    padding: 20px;
-  }
+  border: 15px solid grey;
+  margin: 30px;
+  text-align: center;
+  padding: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 10;
+}
